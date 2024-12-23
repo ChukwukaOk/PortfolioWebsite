@@ -131,3 +131,4 @@ document.addEventListener('DOMContentLoaded', () => {
         changeSlide(1, 'fl');
     }, 5000); // Change FL slides every 5 seconds
 });
+
