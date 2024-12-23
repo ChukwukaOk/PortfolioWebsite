@@ -87,14 +87,38 @@
             <div class="project-grid">
                 <div class="project-card">
                     <h3>Currency Converter App</h3>
+                    <div class="slideshow-container">
+                        <div class="slides cc-slides">
+                            <img src="CCH.PNG" alt="Currency Converter Home">
+                            <img src="CC1.PNG" alt="Currency Converter Screen 1">
+                            <img src="CC2.PNG" alt="Currency Converter Screen 2">
+                            <img src="CC3.PNG" alt="Currency Converter Screen 3">
+                            <img src="CC4.PNG" alt="Currency Converter Screen 4">
+                        </div>
+                        <button class="slide-btn prev" onclick="changeSlide(-1, 'cc')">❮</button>
+                        <button class="slide-btn next" onclick="changeSlide(1, 'cc')">❯</button>
+                        <div class="slide-dots cc-dots"></div>
+                    </div>
                     <p>SwiftUI-based application with intuitive user interface design for real-time currency conversions.</p>
                     <p class="status">Coming soon to App Store</p>
                 </div>
+                
                 <div class="project-card">
                     <h3>Ontario Financial Literacy App</h3>
+                    <div class="slideshow-container">
+                        <div class="slides fl-slides">
+                            <img src="FLQHP.PNG" alt="Financial Literacy Home">
+                            <img src="FLQ1.PNG" alt="Financial Literacy Screen 1">
+                            <img src="FLQ2.PNG" alt="Financial Literacy Screen 2">
+                        </div>
+                        <button class="slide-btn prev" onclick="changeSlide(-1, 'fl')">❮</button>
+                        <button class="slide-btn next" onclick="changeSlide(1, 'fl')">❯</button>
+                        <div class="slide-dots fl-dots"></div>
+                    </div>
                     <p>SwiftUI-based application with intuitive user interface design to help students prepare for Ontario Financial Literacy Test.</p>
                     <p class="status">Coming soon to App Store</p>
                 </div>
+                
                 <div class="project-card">
                     <h3>Ontario Financial Literacy Website</h3>
                     <p>HTML, CSS, Javascript based website with a clean interface to help students study for financial literacy.</p>
