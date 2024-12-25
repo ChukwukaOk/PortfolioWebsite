@@ -131,6 +131,14 @@ ScrollReveal().reveal('.container', {
           changeSlide(1, 'fl');
       }, 5000); // Change FL slides every 5 seconds
   });
+<script>
+    document.querySelectorAll('.social-icons a').forEach(link => {
+        link.addEventListener('click', function (event) {
+            window.open(this.href, '_blank');
+            event.preventDefault();
+        });
+    });
+</script>
   
   
 
