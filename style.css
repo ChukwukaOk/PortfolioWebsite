@@ -455,6 +455,19 @@ section {
     padding: 6rem 0;
 }
 
+.resume-link {
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.resume-link:hover {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
 
 
 
